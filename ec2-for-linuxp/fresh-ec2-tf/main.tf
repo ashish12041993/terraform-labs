@@ -1,4 +1,4 @@
-resource "aws_instance" "Name" {
-  ami = "ami-0f1dcc636b69a6438"
-  instance_type = "t2.nano"
+resource "aws_instance" "name" {
+  ami = var.ami
+  instance_type = var.instance_type
 }
